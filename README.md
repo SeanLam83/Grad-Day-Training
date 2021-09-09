@@ -1,6 +1,17 @@
 Dataset 1: Titanic Survival Data Description 
 
-This data set contains the survival status of 1309 passengers aboard the maiden voyage of the RMS Titanic in 1912 (the ships crew are not included), along with the passengers age, sex and class (which serves as a proxy for economic status). 70% of the data was selected (using stratified sampling) for the training set.
+This data set contains the survival status of passengers aboard the maiden voyage of the RMS Titanic in 1912
+
+survival:	Survival	0 = No, 1 = Yes
+pclass:	Ticket class	1 = 1st, 2 = 2nd, 3 = 3rd
+sex:	Sex	
+Age:	Age in years	
+sibsp:	# of siblings / spouses aboard the Titanic	
+parch:	# of parents / children aboard the Titanic	
+ticket:	Ticket number	
+fare:	Passenger fare	
+cabin:	Cabin number	
+embarked:	Port of Embarkation	C = Cherbourg, Q = Queenstown, S = Southampton
 
 Dataset 2: Income Census Data
 This data was extracted from the 1994 Census bureau database by Ronny Kohavi and Barry Becker (Data Mining and Visualization, Silicon Graphics). A set of reasonably clean records was extracted using the following conditions: ((AAGE>16) && (AGI>100) && (AFNLWGT>1) && (HRSWK>0)). The prediction task is to determine whether a person makes over $50K a year.
